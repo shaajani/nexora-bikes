@@ -84,6 +84,37 @@ function validateOrderForm() {
       return false;
     }
   }
+
+  // 1. Name validation (only alphabets A-Z, a-z, and spaces)
+  const nameVal = document.getElementById('order-name').value.trim();
+  if (!/^[a-zA-Z\s]+$/.test(nameVal)) {
+    alert("Name should contain only alphabets and spaces.");
+    document.getElementById('order-name').focus();
+    return false;
+  }
+
+  // 2. Phone validation (10 digits, Indian number optionally starting with +91 or 91)
+  const phoneVal = document.getElementById('order-phone').value.trim();
+  let cleanPhone = phoneVal.replace(/[\s\-()]/g, '');
+  if (cleanPhone.startsWith('+91')) {
+    cleanPhone = cleanPhone.slice(3);
+  } else if (cleanPhone.startsWith('91') && cleanPhone.length === 12) {
+    cleanPhone = cleanPhone.slice(2);
+  }
+  if (!/^\d{10}$/.test(cleanPhone)) {
+    alert("Phone number must be a valid 10-digit Indian number.");
+    document.getElementById('order-phone').focus();
+    return false;
+  }
+
+  // 3. Pincode validation (6 digits only, numeric only)
+  const pinVal = document.getElementById('order-pin').value.trim();
+  if (!/^\d{6}$/.test(pinVal)) {
+    alert("PIN code must be exactly 6 numeric digits.");
+    document.getElementById('order-pin').focus();
+    return false;
+  }
+
   return true;
 }
 

@@ -34,5 +34,17 @@
     "quantity": 1,
     "additionalMessage": "testing msg",
     "createdAt": "2026-06-25T16:18:19.439Z"
+  },
+  {
+    "customerName": "Mohammad Uddin",
+    "phone": "9876543210",
+    "address": "123 Main St",
+    "city": "Hyderabad",
+    "state": "Telangana",
+    "pinCode": "500001",
+    "productName": "125cc Moto Cross Dirt Bike",
+    "quantity": 1,
+    "additionalMessage": "",
+    "createdAt": "2026-06-27T09:34:07.616Z"
   }
 ]

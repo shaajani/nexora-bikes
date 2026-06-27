@@ -189,7 +189,7 @@ const bikesData = [
   {
     id: "bike-7",
     name: "125cc Moto Cross Dirt Bike",
-    price: "₹1,25,000",
+    price: "₹70,000",
     shortDescription: "High-performance 125cc Moto Cross dirt bike built for extreme trails and off-road tracks.",
     fullDescription: "The 125cc Moto Cross Dirt Bike is designed for intermediate riders who crave speed, agility, and heavy-duty performance. Featuring a robust 125cc 4-stroke air-cooled engine and a manual 4-speed gearbox, it gives the rider full power control. Its upside-down hydraulic front forks and rear mono-shock absorb the hardest jumps on the trail, while front and rear hydraulic disc brakes ensure precise stopping power.",
     images: [
@@ -223,7 +223,7 @@ const bikesData = [
   {
     id: "bike-8",
     name: "125cc Pit Bike",
-    price: "₹1,15,000",
+    price: "₹85,000",
     shortDescription: "Compact and powerful 125cc Pit Bike, combining trail capability with agile handling.",
     fullDescription: "The 125cc Pit Bike offers a smaller frame profile without sacrificing the raw, adrenaline-fueled power of a standard dirt bike. Excellent for backyard tracks, trail riding, and off-road practice. Built with a reinforced steel frame, heavy-duty suspension, manual clutch, and responsive wave disc brakes to conquer trails with absolute confidence.",
     images: [
@@ -253,7 +253,7 @@ const bikesData = [
   {
     id: "bike-9",
     name: "20 Inches Foldable Bicycle",
-    price: "₹8,999",
+    price: "₹9,999",
     shortDescription: "Compact and lightweight 20-inch foldable bicycle — ultimate portability for daily urban commuters.",
     fullDescription: "The 20 Inches Foldable Bicycle is the perfect commuter companion. Its carbon steel folding frame is both rigid and incredibly easy to handle. With a 7-speed Shimano gear system, you can easily cruise up hills and navigate flat city pavement. Folds down in under 15 seconds to fit inside closets, office desks, or car trunks.",
     images: [
@@ -286,7 +286,7 @@ const bikesData = [
   {
     id: "bike-10",
     name: "20 Inches Foldable Fat Bicycle",
-    price: "₹11,999",
+    price: "₹14,999",
     shortDescription: "20-inch foldable fat tyre bike — conquer urban streets, sand, and gravel with ease.",
     fullDescription: "The 20 Inches Foldable Fat Bicycle pairs the portability of a folding bike with the absolute traction of 4-inch wide tyres. This bicycle gives you the confidence to ride through mud, sand, snow, or loose gravel while folding down into a compact footprint when your ride is over.",
     images: [
@@ -314,7 +314,7 @@ const bikesData = [
   {
     id: "bike-11",
     name: "26 Inches Fat Tyre Jaguar Model Bicycle",
-    price: "₹15,999",
+    price: "₹14,999",
     shortDescription: "Aggressive styling and 26-inch fat tyres make the Jaguar model the ultimate trail conqueror.",
     fullDescription: "The 26 Inches Fat Tyre Jaguar Model Bicycle features a unique, aerodynamic sporty steel frame and massive 4-inch fat tyres that provide unbeatable grip and shock absorption on rocky or loose trails. Fitted with high-end 21-speed Shimano gears, it handles climbs and fast descents with ease.",
     images: [
@@ -346,7 +346,7 @@ const bikesData = [
   {
     id: "bike-12",
     name: "26 Inches Foldable Magwheel Fat Bicycle",
-    price: "₹17,999",
+    price: "₹22,000",
     shortDescription: "High-end foldable fat bike featuring stylish 6-spoke magnesium alloy wheels.",
     fullDescription: "The 26 Inches Foldable Magwheel Fat Bicycle combines a folding alloy frame with striking 6-spoke magnesium alloy wheels. It offers the aggressive performance of 4-inch fat tyres, a full suspension system, and 21-speed Shimano gears, all while maintaining the ability to fold down for convenient storage.",
     images: [
@@ -377,7 +377,7 @@ const bikesData = [
   {
     id: "bike-13",
     name: "36 Volts Drifter Electric Trike",
-    price: "₹18,999",
+    price: "₹22,000",
     shortDescription: "36V rechargeable electric drifting trike — execute thrilling 360° spins with ease.",
     fullDescription: "Unleash extreme fun with the 36 Volts Drifter Electric Trike. Powered by a 250W hub motor and a long-lasting lithium battery, this drift machine allows children and teens to zoom, spin, and slide. Dual inclined rear casters enable 360-degree drifting action, while integrated LED lights and built-in Bluetooth speakers add high-tech style to every spin.",
     images: [
@@ -406,7 +406,7 @@ const bikesData = [
   {
     id: "bike-14",
     name: "50cc Dirt Bike",
-    price: "₹39,999",
+    price: "₹26,000",
     shortDescription: "Perfect starter 50cc 2-stroke dirt bike for young riders. Lightweight, safe, and fun.",
     fullDescription: "The 50cc Dirt Bike is the ultimate starter machine for kids. Equipped with a simple automatic 'twist-and-go' throttle, a safety kill switch lanyard, and full mechanical disc brakes. The lightweight steel frame and front/rear suspension ensure a comfortable and thrilling introduction to off-road riding.",
     images: [
